@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Ubuntu&display=swap');
+html , body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight:400 ;
+    line-height: 1.8em;
+    color: black;
+   
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    margin-bottom: 1px;
+   
+}
+nav img{
+    padding-bottom: 5px;
+}
+nav h1{
+   margin: 0;
+  padding-left: 50%;
+  padding-top: 20px;
+  line-height: 1.2rem;
+  color: wheat;
+  font-family: 'Protest Riot', sans-serif;
+
+}
+
+.RanthamboreImg{
+    background-image: url(Ranthambore-Fort.jpg);
+    min-height: 100%;
+  
+    
+}
+.ChittorgarhImg{
+    background-image: url(Chittorgarh-Fort.jpg);
+    min-height: 100%;
+  
+    
+}
+.KumbhalgarhImg{
+    background-image: url(Kumbhalgarh_Fort.jpg);
+    min-height: 100%;
+  
+    
+}
+.AmerImg{
+    background-image: url(amer-fort.jpeg);
+    min-height: 100%;
+ 
+    
+}
+.JaislmerImg{
+    background-image: url(Jaisalmer-Fort.jpg);
+    min-height: 100%;
+   
+    
+}
+.GagronImg{
+    background-image: url(Gagron-Fort.jpg);
+    min-height: 100%;
+   
+    
+}
+
+.AmerImg,.ChittorgarhImg,.GagronImg,.JaislmerImg,.KumbhalgarhImg,.RanthamboreImg{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Img{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.text{
+    background-color: #313534;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;  
+}
+.text a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+ }
+
+
+
